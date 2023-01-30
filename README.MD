@@ -94,4 +94,21 @@ In the VS Code Terminal where your virtual environment is activated, run the fol
 ```
     python manage.py startapp app
 ```
+
+## MPESA API
+1. Generate Access Token:
+- Endpoint -> http://127.0.0.1:8000/access/token
+- Response is :
+
+```
+ePofhWoR7glUG7ZyAMwJJRgclJtj
+```
+
+2. Perform STK Push:
+- Endpoint -> http://127.0.0.1:8000/online/lipa
+- Response is:
+
+```
+CallBack Sent successfully!
+```
  
